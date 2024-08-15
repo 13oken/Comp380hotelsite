@@ -1,3 +1,9 @@
+//a.) module web
+//b.) 8/14/23
+//c.) Francisco Orellana
+//d.) In this module it does two things. One it opens our port that displays our interface. It also contacts the html file and more.
+//e.) We really need this or we would not be able to show the work we have been commiting to this assignment. 
+
 const { execFile } = require('child_process');
 
 const express = require('express');
