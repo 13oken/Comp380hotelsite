@@ -1,3 +1,9 @@
+//a.) module sever
+//b.) 8/14/23
+//c.) Francisco Orellana
+//d.) In this module we have a few stuff going on and this includes gettting the guest's input. This input connects to our contact form which guest have the opportunity to voice their option
+//e.) We need this in order for the guest to be able to give their feedback, concerns, or pretty much anything they need 
+
 // Get the HTML
 const contactForm = document.querySelector('.contact-form');
 
