@@ -33,7 +33,7 @@ public class Reservation {
     }
 
     /**
-    *@return the guest's first name
+    *@return the reservation ID
     */
     
     public int getreservationId() {
