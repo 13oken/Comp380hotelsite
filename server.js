@@ -24,7 +24,8 @@ contactForm.addEventListener('submit', (e) => {
     xhr.open('POST', '/'); 
     xhr.setRequestHeader('content-type', 'application/json'); 
 
-   
+   //Body
+
     xhr.onload = function() {
         console.log(xhr.responseText); 
         if (xhr.responseText == 'success') {
