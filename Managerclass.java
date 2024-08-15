@@ -1,5 +1,34 @@
-// More back end coding for the manager class which will help with the process of the hotel reservation system
-// Class manager is made with strings 
+//  Back end coding for the manager class 
+// Class manager is made with string variables
+
+
+
+
+
+
+
+// 3.2 a-e
+
+// (a) Class name is manager
+// (b) 8/14/24 is the date
+// (c) Programmer's name is Felix Montes-Flores
+
+// (d)  The class is called manager and it will help with the process of the hotel reservation system
+
+/* (e)  In the public class manager, string varaibles are declared for the name and email so that they will be stored
+ in the class. This will require a generate reservation report class so it can print the information out. A report
+ class for the cancellations and to manage the reservation itself class will be required to use the information. 
+ Getters and setters are used to have control access in the project itself which keeps data safe from inferenence and
+ non-use. 
+
+*/
+
+
+
+
+
+
+
 //Import the java util
 import java.util.List; 
 
