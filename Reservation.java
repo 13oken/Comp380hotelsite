@@ -1,3 +1,9 @@
+/**
+*Reservation class
+*@since 8/10/2024
+*@author Thanim Uddin
+*The Reservation class handles the function of reserving a room for the guests
+*/
 import java.time.LocalDate;
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -9,6 +15,15 @@ public class Reservation {
     private Guest guest;
     private room rooms;
 
+    /**
+    *Constructor to create a new Reservation
+    *Assigns a unique number id for the room being reserved
+    *@param guest    The information of the guest making the reservation
+    *@param rooms    The specified room being reserved
+    *@param checkIn  The check-in date for the reservation
+    *@param checkOut The check-out date for the reservation
+    */
+    
     public Reservation(Guest guest, room rooms, LocalDate checkIn, LocalDate checkOut) {
         reservationId = uniqueId.incrementAndGet();
         this.guest = guest;
@@ -17,6 +32,10 @@ public class Reservation {
         this.checkOut = checkOut;
     }
 
+    /**
+    *@return the guest's first name
+    */
+    
     public int getreservationId() {
         return reservationId;
     }
