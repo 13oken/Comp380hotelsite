@@ -1,10 +1,10 @@
-//Back end coding
+//Back end coding for the Login
 @WebServlet("/login")
 public class LoginServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String username = request.getParameter("username");
         String password = request.getParameter("password");
-// Validate user credentials
+// Validate the user credentials that are necessary
         if (validateUser(username, password)) {
             request.getSession().setAttribute("user", username);
             response.sendRedirect("home.jsp");
@@ -12,9 +12,16 @@ public class LoginServlet extends HttpServlet {
             response.sendRedirect("login.jsp?error=1");
         }
     }
-    
+    // Private boolean
     private boolean validateUser(String username, String password) {
         // Implement user validation logic (e.g., check against database)
         return true;
     }
-}        
+} 
+
+
+
+// More back end coding for the manager class which will help with the process of the hotel reservation system
+//Import the java util
+
+
