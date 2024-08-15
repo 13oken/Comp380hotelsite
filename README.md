@@ -8,4 +8,4 @@ confirmation should be sent to the customer.
 // Home page of an online hotel website will give the customer many options on how to set up their reservation for the hotel.
 
 
-// Other pages of the online hotel website would inlucde a customer support and even a sign in page for customers to easily acccess a status of a hotel or even see saftey protocols in a hotel incase of an emergency so a person can be prepared ahead of time.
+// Other pages of the online hotel website would inlucde a customer support and even a sign in page for customers to easily acccess a status of a hotel or even see saftey protocols in a hotel in case of an emergency so a person can be prepared ahead of time.
