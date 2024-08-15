@@ -37,5 +37,6 @@ public class Reservation {
         return rooms;
     }
 
+//possibly add a string method that prints out the reservation details
     
 }
