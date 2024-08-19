@@ -4,44 +4,40 @@
 //d.)In this module it just shows the dimensions of body and give possitions in terms of width, left, right, height, and etc.
 //e.)We need this module in oreder to have a proper interface 
 
-* {
-    margin: 10;
-    padding: 10;
-    font-family: "Poppins", sans-serif;
-    font-style: normal; 
-}
-
-html,
 body {
-    background-color: rgba(30, 19, 68, 0.86);
-    
+    background-color: rgba(26, 125, 155, 0.86);
+    color: rgb(0, 0, 0);
+    font-family: Helvetica Neue, Helvetical, Ariel, sans-serif;
+    margin: 0;
+    padding: 0;
+
 }
 
-.form-container {
-    position: relative;
-    left: 20%;
-    width: 60%;
-    height: 90vh;
-    background-color: rgb(117, 117, 117);
-    background-image: url("LOGO.png");
+header {
+    background: rgb(255, 255, 255);
+    padding: 20px;
 }
 
-.contact-form {
-    position: absolute;
-    top: 10%;
-    left: 10%;
-    width: 40%;
-    height: 600px;
+section{
+background: white;
+color: lightgreen;
+padding: 20px;
+display: flex;
+flex-direction: row;
 }
 
-.submit {
-    border: 1px solid black;
-    padding: 1rem;
-    text-align: center;
-    background-color: white;
-    cursor: pointer;
+
+div {
+    width: 100px;
 }
 
-.submit:hover {
-    opacity: 0.8;
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li{
+display: inline-block;
+margin-right: 20px;
 }
